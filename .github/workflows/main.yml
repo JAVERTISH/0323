@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@0323 # what kind of github action version to use
+    - uses: actions/checkout@0323fb13407e13b0ba941b85871d20a4db9ca552 # what kind of github action version to use
     - name: Run my python
       run: |
        python3 test.py
